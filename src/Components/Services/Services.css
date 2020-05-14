@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+#ServicesWrap {
+    background-image: url(./../../Assets/Images/ServicesBackground.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+}
+
+.Services {
+    width:50%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 30px;
+    color: grey;
+    padding-left: 1%;
+}
+
+h2 {
+    font-size: 2.9rem;
+}
+
+h2, h6 {
+    text-align: center;
+    color: var(--theme-color);
+}
+
+.Center {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 45px;
+}
+
+.Center .Link {
+    margin-top: 5%;
+}
+
+.Services .AlignCenter {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 14%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.Services h3:nth-child(1) {
+    line-height: 100px;
+    
+}
+
+.Services h3:nth-child(6) {
+    line-height: 100px;
+    
+}
+
+.CheckIcon {
+    padding-top:7px;
+    color:var(--theme-color);
+}
+
+.Link {
+    font-family: 'Roboto heading';
+    background:transparent;
+    box-shadow: none;
+    border:none;
+    font-size: 1.55rem;
+    margin:0 auto;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.GridItemServ p {
+    font-size: 1.3rem;
+    line-height: 4px;
+    margin-left: 60px;
+}
+.GridItemServ p:nth-last-of-type(1) {
+    margin-left: 0;
+}
+.GridItemServ .LeftIndent {
+    margin-left: 30%;
+}
+
+.GridItemServ .MobileIndent {
+    margin-left: 25%;
+}
+
+.GridItemServ img {
+    margin-left: 10%;
+    padding-right: 110px;
+    width:500px;
+    height: 500px;
+}
+
+.GridItemServ .Link::after { 
+    content: "-after"; 
+    font-size: 1px;
+    background: #00FFA3; 
+    color: #00FFA3;
+    position: absolute;
+    top:14px;
+    left:20px;
+    width: 80%;
+    height: 10px;
+    z-index: -10;
+}
+
+.Link:hover{ 
+    padding-left: 30px;
+}
+
+p .Link::after { 
+    content: "-after"; 
+    font-size: 1px;
+    background: #00FFA3; 
+    color: #00FFA3;
+    position: absolute;
+    top:14px;
+    left:20px;
+    width: 80%;
+    height: 10px;
+    z-index: -10;
+}
+
+.Services .DesignMarketingConsulting {
+    margin-top: 100px;
+}
+
+.GridItemServ .sImageServ {
+    margin-left: 15%;
+    width: 100%;
+}
+
+@media (min-width: 301px) and (max-width: 500px) {
+    .Services {
+        width: 70%;
+        text-align: center;
+    }
+    .Services h3 {
+        color:var(--theme-color);
+    }
+    .GridItemServ p {
+        font-size: 1.3rem;
+        line-height: 5px;
+        margin-left: 20%;
+        text-align: left;
+    }
+    .GridItemServ p:nth-last-of-type(1) {
+        text-align: center;
+    }
+    .Services .GridItemServ img {
+        margin-left:15%;
+        height: auto;
+    }
+    .GridItemServ {
+        margin:0;
+        padding: 0;
+    }
+    .Services .DesignMarketingConsulting {
+        line-height: 0;
+    }
+
+    html, body  {overflow-x:hidden;margin:0px;padding:0px;width:100%;height:100;}
+}

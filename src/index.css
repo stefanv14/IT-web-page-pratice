@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Roboto Heading';
+  src:url('../src/Assets/webfonts/39BFAC_1_0.ttf');
+}
+@font-face {
+	font-family: 'Roboto text';
+  src: url('../src/Assets/webfonts/39BFAC_0_0.ttf') format('truetype');
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Heading';
+}
+body {
+  margin: 0;
+  font-family: 'Roboto text', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --theme-color: #184C7F;
+}

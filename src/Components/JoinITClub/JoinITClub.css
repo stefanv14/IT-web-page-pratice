@@ -1,0 +1,82 @@
+.JoinITClub {
+  height: 350px;
+  width: 100%;
+  background-image: url(./../../Assets/Images/JoinITClub.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.TextJoinLeft {
+  width: 60%;
+  height: 300px;
+  display: flex;
+  font-size: 50px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  margin: auto 0;
+}
+
+.ClubImg {
+  padding-right: 30px;
+}
+
+.TextJoinRight {
+  width: 40%;
+  height: 220px;
+  align-items: center;
+  line-height: 40px;
+  font-size: 24px;
+  color: #fff;
+  margin: auto 0;
+}
+
+.MobRespJoin {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.Group {
+  font-size: 12px;
+  letter-spacing: 16px;
+}
+
+.BtnJoin {
+  background-color: #d31654;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.BtnJoin:hover {
+  color: var(--theme-color);
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 500px) {
+  .MobRespJoin {
+    flex-direction: column;
+    height: auto;
+  }
+  .JoinITClub {
+    height: auto;
+    padding: 10% 0;
+  }
+  .TextJoinLeft {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .TextJoinRight {
+    width: 100%;
+    text-align: center;
+  }
+}

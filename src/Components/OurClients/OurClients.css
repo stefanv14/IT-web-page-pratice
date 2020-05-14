@@ -1,0 +1,90 @@
+.OurClients {
+    height: auto;
+    width:100%;
+    color:#333;
+}
+
+.Heading2 {
+    padding-top:160px;
+    margin-bottom:0;
+}
+
+.OurClients .Link::after { 
+    content: "-after"; 
+    font-size: 1px;
+    background: #00FFA3; 
+    color: #00FFA3;
+    position: absolute;
+    top:14px;
+    left:20px;
+    width: 80%;
+    height: 10px;
+    z-index: -10;
+}
+
+.OurClients .Link:hover { 
+    padding-left: 30px;
+}
+
+.RespIcon1, .RespIcon2 {
+    cursor:pointer;
+    margin: auto 0;
+    color:var(--theme-color);
+}
+
+.SliderWrap {
+    width:50%;
+    height:auto;
+    margin:0 auto;
+}
+
+.SliderResp {
+    display:flex;
+    text-align:center;
+}
+
+.Img img {
+    margin:80px auto;
+}
+
+.SliderWrap p:nth-of-type(1) {
+    font-size:0.9rem;
+    padding:0 50px;
+    width:auto;
+}
+
+.SliderWrap p:nth-of-type(2) {
+    color:#ccc;
+    padding:50px 0 90px 0;
+}
+
+.SliderWrap p:nth-of-type(2) span {
+    color:var(--theme-color);
+}
+
+.AlignCenter {
+    text-align:center;
+    padding:50px 0 160px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .OurClients {
+        padding: 50px 0 10px 0;
+    }
+    .OurClients h2 {
+        padding-top: 10%;
+        font-size: 40px;
+        width:74%;
+        margin:0 auto;
+    }
+    .OurClients p {
+        line-height: 25px;
+    }
+    .OurClients img {
+        width:50%;
+    }
+    .SliderResp {
+        width:170%;
+        margin-left: -33%;
+    }
+}

@@ -1,0 +1,72 @@
+.WhyUs {
+    height: 420px;
+    width:100%;
+    background-image: url(./../../Assets/Images/WhyNot.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto text';
+    padding: 6% 0;
+}
+
+.WhyUs h4 {
+    font-size: 72px;
+    line-height: 86px;
+    margin:0;
+} 
+
+.WhyUs p {
+    
+    font-size: 28px;
+}
+
+.WhyUsLink {
+    font-family: 'Roboto heading';
+    background:transparent;
+    box-shadow: none;
+    border:none;
+    font-size: 1rem;
+    margin:0 auto;
+    position: relative;
+    cursor: pointer;
+    color:#fff;
+    font-weight:900;
+    text-transform:none;
+}
+
+.WhyUs p .WhyUsLink {
+    font-family: 'Roboto heading';
+    background:transparent;
+    box-shadow: none;
+    border:none;
+    font-size: 1rem;
+    margin:0 auto;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.WhyUs .WhyUsLink::after { 
+    content: "-after"; 
+    font-size: 1px;
+    background-color: #00FFA3; 
+    color: #00FFA3;
+    position: absolute;
+    top:14px;
+    left:20px;
+    width: 80%;
+    height: 10px;
+    z-index: -10;
+}
+
+.WhyUs .WhyUsLink:hover { 
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .WhyUs {
+        padding:11%;
+    }
+}

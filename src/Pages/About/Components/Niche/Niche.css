@@ -1,0 +1,39 @@
+.Niche {
+    width: 100%;
+    height:auto;
+    background-image: url(./../../../../Assets/Images/nicheBackground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding:90px 220px;
+}
+
+.NicheText {
+    width:50%;
+    text-align: center;
+    align-items: flex-end;
+    margin: 0 50% 0 50%;
+    color: #ccc;
+}
+
+.NicheText h2 {
+    color:#ccc;
+}
+
+.NicheText p {
+    font-size: 18px;
+    line-height: 33px;
+}
+
+@media (min-width: 301px) and (max-width: 500px) {
+    .Niche {
+        padding: 0;
+    }
+    .NicheText {
+        width:100%;
+        margin:0;
+        padding:20% 0;
+    }
+
+    html, body  {overflow-x:hidden;margin:0px;padding:0px;width:100%;height:100;}
+}

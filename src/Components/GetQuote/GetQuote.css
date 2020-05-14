@@ -1,0 +1,173 @@
+.GetQuote {
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    background:#F4F7F9;
+}
+
+.btnBOOK {
+    background-color: #D31654;
+    width: 323px;
+    height: 75px;
+    border:none;
+    border-radius: 5px;
+    font-size: 28px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.btnBOOK:hover {
+    background-color: var(--theme-color);
+}
+
+.btnIcon {
+    vertical-align:middle;
+}
+
+.RespLineHeight {
+    line-height:120px;
+}
+
+.GetQuoteForm {
+    display:flex;
+    width:70%;
+    margin:0 auto;
+}
+
+.DedicatedTeams, .ProjectTeams {
+    text-align:justify;
+}
+
+.GetQuoteServices {
+    width:70%;
+}
+
+.ChackIcon {
+    display: none;
+}
+
+.ClearIcon {
+    display: none;
+}
+
+.TextArea {
+    border-radius: 10px;
+    width:100%;
+    padding: 0.5rem;
+    background: transparent;
+}
+
+.RespAsset {
+    margin-bottom: 40%;  
+}
+
+.MobQuote {
+    width:70%;
+    margin:0 auto;
+}
+
+.MobGetQuote {
+    display:flex;
+    justify-content:space-between;
+    padding:50px;
+}
+
+.MobServices {
+    display:flex;
+    justify-content:space-between;
+    margin-top:80px;
+}
+
+.Hide {
+    display: none;
+}
+
+.btnIcon {
+    transform: rotate(180deg);
+}
+
+.RespMob {
+    width:22%;
+    /* border:1px solid black; */
+}
+
+/* .MobRow {
+    margin:9% 0;
+    border:1px solid black;
+} */
+
+.GridContainer {
+    height:auto;
+    padding-top:10%;
+}
+
+.GridItemGet h3 {
+    color:#333;
+    margin:9% 0;
+}
+
+.SendInquiry {
+    padding:100px 0;
+}
+
+.SendInquiry .btnBOOK:nth-of-type(1) {
+    width:100%;
+}
+
+.ProjectTeamsGet {
+    padding-top: 8%;
+}
+
+@media screen and (max-width: 500px) {
+    .MobGetQuote {
+        flex-direction: column;
+        text-align: center;
+    }
+    .MobQuote {
+        width:90%;
+    }
+    .btnBOOK {
+        width:99%;
+        font-size: 14px;
+    }
+    .GetQuote h3 {
+        font-size:15px;
+        line-height: 30px;
+    }
+    .MobServices {
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        width:120%;
+        margin: 0 -10%;
+        font-size: 50px;
+    }
+    .MobWidth {
+        width:auto;
+    }
+    .RespMob {
+        padding:25% 0;  
+        transform: scale(1.4);
+        width: auto;
+    }
+    .MobRow {
+        width:auto;
+        display: flex;
+        justify-content: space-between;
+        height: auto;;
+        align-self: flex-start;
+    }
+    .MobRow img {
+        width:90%;
+    }
+    .ProjectTeamsGet {
+        padding-top: 0;
+    }
+    .GridItemGet img {
+        margin:0;
+        padding:0;
+    }
+    .GridItemGet .sImage {
+        margin-left: 0;
+    }
+}

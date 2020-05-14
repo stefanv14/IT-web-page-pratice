@@ -1,0 +1,61 @@
+.Teams {
+    line-height: 40px;
+    margin-top: 160px;
+    height: auto;
+    width:auto;
+    background-image: url(../../Assets/Images/teamsBackground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.Teams h1 {
+    color:var(--theme-color);
+    text-align:center;
+    padding-top:50px;
+    line-height:0;
+    margin-bottom:120px;
+}
+
+.MobTeams {
+    display:flex;
+    margin:0 auto;
+    width:60%;
+    justify-content:space-between;
+}
+
+.DedicatedTeams {
+    text-align:justify;
+}
+
+.DedicatedTeams p {
+    line-height:30px;
+}
+
+.MobTeams .HR {
+    align-self:center;
+    font-family:'Roboto heading';
+    font-weight:700;
+    color:#ccc;
+    font-size:1.5rem;
+    padding:0 20px;
+}
+
+.ProjectTeams {
+    text-align:justify;
+}
+
+.ProjectTeams p {
+    line-height: 30px;
+}
+    
+@media screen and (max-width: 500px) {
+    .Teams {
+        flex-direction: column;
+    }
+    .MobTeams {
+        flex-direction: column;
+    }
+    
+    html, body  {overflow-x:hidden;margin:0px;padding:0px;width:100%;height:100;}	
+  }

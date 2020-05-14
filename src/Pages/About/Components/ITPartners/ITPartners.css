@@ -1,0 +1,86 @@
+.ITPartners {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.ITPartners h2 {
+  color: var(--theme-color);
+  text-align: center;
+  line-height: 200px;
+}
+
+.PartnersImg {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PartnersImg2 {
+  width: 40%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.SubscribeAbout {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 15% 0;
+}
+
+.DivLeftAbout {
+  width: 45%;
+  height: 200px;
+  font-size: 22px;
+  color: #a7a9ac;
+  margin: auto 0;
+}
+
+.DivRightAbout {
+  width: 45%;
+  height: 488px;
+  background-image: url(./../../../../Assets/Images/Subscribe.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 500px) {
+  .PartnersImg {
+    flex-direction: column;
+    height: 100%;
+  }
+  .PartnersImg img {
+    margin-top: 50px;
+  }
+  .PartnersImg2 {
+    flex-direction: column;
+    margin-top: 50%;
+  }
+  .SubscribeAbout {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-bottom: 20%;
+  }
+  .DivLeftAbout {
+    width: 100%;
+  }
+  .DivRightAbout {
+    width: 100%;
+    height: 300px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100;
+  }
+}

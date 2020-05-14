@@ -1,0 +1,143 @@
+.LoyaltyPrograms {
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.LoyaltyPrograms h2 {
+    margin: 180px 0 70px 0;
+    color: var(--theme-color);
+}
+
+.LoyaltyPrograms p {
+    padding: 0 80px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.GridItem {
+    width:50px;
+}
+
+.GridItem h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.GridItem img {
+    width: 150px;
+    height:270px;
+}
+
+.Blog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+
+.BlogLeft {
+    width:45%;
+    height: auto;
+    position: relative;
+    padding-bottom: 180px;
+    z-index: -1;
+}
+
+.BlogLeft h4 {
+    width:42%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.BlogLeft p {
+    color: #ccc;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.Share {
+    position: absolute;
+    bottom: 190px;
+    right: 1px;
+}
+
+.BlogRight {
+    width:45%;
+    height: auto;
+    padding:5px;
+}
+
+.BlogRight h5 {
+    width:50%;
+    text-align: left;
+    line-height: 30px;
+    color: var(--theme-color);
+    margin: 0;
+}
+
+.BlogRight h5:nth-of-type(2) {
+    width:60%;
+}
+
+.BlogRight h5:nth-of-type(3) {
+    width:60%;
+}
+
+.BlogRight p {
+    margin:0;
+    text-align: left;
+    padding: 0;
+    font-size: 0.7em;
+    line-height: 20px;
+    color: #ccc;
+}
+
+@media screen and (max-width: 500px) {
+    .GridItem {
+        max-width: 0;
+        flex-basis: 0;
+        margin: 0 auto;
+        height: 500px;
+        width:100%;
+    }
+    .GridItem img {
+        width: 100%;
+    }
+    .GridItem p {
+        margin:0;
+        padding:0;
+        height: 0;
+    }
+    .LoyaltyPrograms {
+        width:90%;
+    }
+    .LoyaltyPrograms p {
+        width: 100%;
+        padding:0;
+    }
+    .Blog {
+        flex-direction: column;
+    }
+    .BlogLeft {
+        width: 100%;
+    }
+    .BlogRight {
+        width: 100%;
+        font-size: 2em;
+    }
+    .BlogRight h5 {
+        width: 100%;
+    }
+    .BlogRight h5:nth-of-type(2) {
+        width:100%;
+    }
+    
+    .BlogRight h5:nth-of-type(3) {
+        width:100%;
+    }
+    .BlogRight h5:nth-of-type(4) {
+        width:100%;
+    }
+    html, body  {overflow-x:hidden;margin:0px;padding:0px;width:100%;height:100;}
+}

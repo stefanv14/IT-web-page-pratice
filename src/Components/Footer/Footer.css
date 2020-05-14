@@ -1,0 +1,255 @@
+.Footer {
+  width: 100%;
+  height: 700px;
+  background: #f6f7f9;
+  color: #a7a9ac;
+}
+
+.Wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Info {
+  width: 29%;
+  height: 550px;
+  align-self: flex-end;
+}
+
+.FooterLogoImg {
+  padding: 20% 0;
+}
+
+.InfoText {
+  line-height: 25px;
+}
+
+.InfoContact {
+  color: var(--theme-color);
+  padding: 10%;
+}
+
+.InfoLocation {
+  color: #ccc;
+  line-height: 30px;
+}
+
+.Actions .ArrowUpIcon {
+  color: #ccc;
+  font-size: 50px;
+}
+
+.ITClub {
+  display: flex;
+  color: #a7a9ac;
+}
+
+.ITClubText {
+  padding-left: 5%;
+  width: 40%;
+}
+
+.ViewJoin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterGetQuote {
+  display: flex;
+  color: #a7a9ac;
+}
+
+.FooterGetQuoteText {
+  padding-left: 5%;
+}
+
+.Nav {
+  width: 20%;
+  height: 330px;
+  align-self: flex-end;
+  border: "1px solid black";
+}
+.Nav ul {
+  list-style-type: none;
+  line-height: 50px;
+  color: #a7a9ac;
+}
+
+.Nav a,
+.fServices a {
+  text-decoration: none;
+  color: #a7a9ac;
+}
+
+.fServices {
+  width: 20%;
+  height: 350px;
+  align-self: flex-end;
+  color: #a7a9ac;
+}
+
+.fServices ul {
+  list-style-type: none;
+  line-height: 50px;
+  color: #a7a9ac;
+  padding-left: 0;
+}
+
+/* .fServices a {
+    text-decoration: none;
+    color:#A7A9AC;
+} */
+
+.fServices a:hover,
+.Nav a:hover {
+  color: var(--theme-color);
+}
+
+.Actions {
+  height: 400px;
+  width: auto;
+  justify-content: space-between;
+  line-height: 49px;
+  margin: auto 0;
+  color: #a7a9ac;
+}
+
+.Actions .ButtonResp {
+  text-align: right;
+}
+
+.ButtonResp .ToTop {
+  padding: 10px;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+  align-self: flex-end;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ButtonResp .ToTop:hover {
+  background: var(--theme-color);
+}
+
+.Actions .FooterBtn {
+  background: #fff;
+  color: var(--theme-color);
+  padding: 4px 50px;
+  width: 40%;
+  font-weight: 900;
+}
+
+.Actions .FooterBtnBOOK {
+  background: #fff;
+  color: var(--theme-color);
+  padding: 4px 50px;
+  width: 100%;
+  font-weight: 900;
+}
+
+.FooterNewsLetter {
+  display: flex;
+  color: #a7a9ac;
+}
+
+.NewsLetterText {
+  padding-left: 5%;
+}
+
+.FooterSubscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterHR {
+  margin: 3% auto 0 auto;
+  width: 80%;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.CopyRightSocial {
+  display: flex;
+  align-items: flex-start;
+}
+
+.CopyRightSocial a {
+  color: #a7a9ac;
+}
+
+.CopyRight .IgIcon {
+  font-size: 40px;
+  margin-top: 7px;
+}
+
+.PrivacyPolicy {
+  display: flex;
+}
+
+.InputEmail {
+  border-radius: 4px;
+  border: none;
+  width: 65%;
+}
+
+.CopyRight {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto 0 auto;
+  color: #a7a9ac;
+}
+
+.Insta {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 0;
+  margin: 0;
+  padding: 25px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .Wrap {
+    flex-direction: column;
+    text-align: left;
+  }
+  .Footer {
+    height: auto;
+  }
+  .Info {
+    width: 100%;
+  }
+  .FooterSpan {
+    color: black;
+  }
+  .fServices {
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+  }
+  .fServices ul {
+    color: var(--theme-color);
+  }
+  .Nav {
+    width: 100%;
+    text-align: center;
+  }
+  .Nav ul {
+    padding: 0;
+    color: var(--theme-color);
+    font-size: 21px;
+  }
+  .Actions {
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+  }
+  .CopyRight {
+    font-size: 10px;
+  }
+  .ButtonResp {
+    display: none;
+  }
+}
