@@ -15,7 +15,7 @@
     "react-scroll": "^1.7.14",
     "react-slick": "^0.25.2"
   },
-  "homepage": "https://stefanv14.github.io/it-web-page-pratice",
+  "homepage": "https://stefanv14.github.io/IT-web-page-pratice",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
